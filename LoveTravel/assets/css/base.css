@@ -1,0 +1,97 @@
+/* Reset CSS */
+:root {
+    --text-color : #fff;
+    --navbar-height: 104px;
+    --purple-color : #ba71da;
+    --red-color : #f76750;
+    --green-color: #1BBC9B;
+    --blue-color : #14b9d5;
+    --yellow-color : #ffd105;
+    --orange-color : #f3a46b;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.btn {
+    display: block;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: #ccc;
+    color: var(--text-color);
+    padding: 12px 15px;
+    border-radius: 25px;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+/* underline */
+
+.underline {
+    display: inline-block;
+}
+
+.underline::after {
+    position: relative;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    bottom: 6px;
+    right: 0;
+    background-color: var(--purple-color);
+}
+
+/* sticker */ 
+.sticker {
+    position: absolute;
+    right: 18px;
+    bottom: 10px;
+    font-size: 1rem;
+    padding: 2px 5px;
+    display: block;
+    color: var(--text-color);
+    font-weight: 400;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #f76570;
+}
+
+.br-red-color {
+    background-color:#f76570 ;
+}
+
+.br-green-color {
+    background-color: #1BBC9B ;
+}
+
+.br-blue-color {
+    background-color: #14B9D5 ;
+}
+
+.br-yellow-color {
+    background-color: #FFD205 ;
+}
+
+.br-purple-color {
+    background-color: var(--purple-color) ;
+}
+
+
+.green-color {
+    color: var(--green-color) !important;
+}
+

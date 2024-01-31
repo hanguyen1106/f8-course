@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Travel </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- themify icon -->
+    <link rel="stylesheet" href="./fonts/themify-icons/themify-icons.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- Poppin font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&amp;display=swap&amp;_cacheOverride=1629809407100" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="app__header" style="background-image: linear-gradient(rgba(67, 74, 84 , 0.3 ),rgba(68, 75, 85 , 0.3 )),url('./img/cover.jpg');">
+            <div class="header__navbar">
+                <a class="navbar__logo">
+                    <img src="./img/logo.png" alt="" class="navbar__logo-img">                            
+                </a>
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a href="" class="navbar__link">Packages</a>
+                        <ul class="navbar__sub-list">
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">Search 1</a>
+                                <span class="sticker br-red-color">Hot</span>
+                            </li>
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">Search 2</a>
+                            </li>
+                            <li class="navbar__sub-item navbar__sub-item-have-sub-list">
+                                <a href="" class="navbar__sub-link">
+                                    Tour Package
+                                    <i class="fas fa-caret-right"></i>
+                                </a>
+                                <ul class="navbar__sub-list">
+                                    <li class="navbar__sub-item">
+                                        <a href="" class="navbar__sub-link">Carousel</a>
+                                        <span class="sticker br-blue-color">BEST</span>
+                                    </li>
+                                    <li class="navbar__sub-item">
+                                        <a href="" class="navbar__sub-link">Custom Map</a>
+                                    </li>
+                                    <li class="navbar__sub-item">
+                                        <a href="" class="navbar__sub-link">360° Panorama</a>
+                                    </li>
+                                    <li class="navbar__sub-item">
+                                        <a href="" class="navbar__sub-link">Default</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">Destination</a>
+                            </li>
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">Typology</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="" class="navbar__link">Shop</a>
+                        <ul class="navbar__sub-list">
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">Archive</a>
+                            </li>
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">Single Product</a>
+                            </li>
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">Cart</a>
+                            </li>
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">Check Out</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="" class="navbar__link">About us</a>
+                        <ul class="navbar__sub-list ">
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">About Us</a>
+                                <span class="sticker br-green-color">NEW</span>
+                            </li>
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">About Us</a>
+                            </li>
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">About Us</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="" class="navbar__link">Pages</a>
+                        <ul class="navbar__sub-list ">
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">Services</a>
+                            </li>
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">Agency Tours</a>
+                            </li>
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">Testimonials</a>
+                            </li>
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">Price</a>
+                            </li>
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">Promotions</a>
+                            </li>
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">Faq</a>
+                            </li>
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">Comming Soon</a>
+                            </li>
+                            <li class="navbar__sub-item navbar__sub-item-have-sub-list">
+                                <a href="" class="navbar__sub-link">
+                                    About Us
+                                    <i class="fas fa-caret-right"></i>
+                                </a>
+                                <ul class="navbar__sub-list">
+                                    <li class="navbar__sub-item">
+                                        <a href="" class="navbar__sub-link">About Us 1</a>
+                                    </li>
+                                    <li class="navbar__sub-item">
+                                        <a href="" class="navbar__sub-link">About Us 2</a>
+                                    </li>
+                                    <li class="navbar__sub-item">
+                                        <a href="" class="navbar__sub-link">About Us 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navbar__sub-item navbar__sub-item-have-sub-list">
+                                <a href="" class="navbar__sub-link">
+                                    Contact
+                                    <i class="fas fa-caret-right"></i>
+                                </a>
+                                <ul class="navbar__sub-list">
+                                    <li class="navbar__sub-item">
+                                        <a href="" class="navbar__sub-link">Contact 1</a>
+                                    </li>
+                                    <li class="navbar__sub-item">
+                                        <a href="" class="navbar__sub-link">Contact 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="" class="navbar__link">
+                            News
+                        </a>
+                        <ul class="navbar__sub-list ">
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">Archive</a>
+                            </li>
+                            <li class="navbar__sub-item navbar__sub-item-have-sub-list">
+                                <a href="" class="navbar__sub-link">
+                                    Single Posts
+                                    <i class="fas fa-caret-right"></i>
+                                </a>
+                                <ul class="navbar__sub-list">
+                                    <li class="navbar__sub-item">
+                                        <a href="" class="navbar__sub-link">About Us 1</a>
+                                    </li>
+                                    <li class="navbar__sub-item">
+                                        <a href="" class="navbar__sub-link">About Us 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="" class="navbar__link">Contact</a>
+                        <ul class="navbar__sub-list ">
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">
+                                    Contact 1
+                                </a>
+                            </li>
+                            <li class="navbar__sub-item">
+                                <a href="" class="navbar__sub-link">Contact 2</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="" class="btn navbar__booking-btn hide-on-tablet-mobile">
+                    Book Now
+                </a>
+                <div class="navbar__menu">
+                    <i class="navbar__menu-icon ti-align-justify"></i>
+                </div>
+            </div>
+            <div class="grid wide">
+                <div class="row no-gutters">
+                    <div class="col header__cover">
+                        <h1 class="cover__heading">Search your next  
+                            <span class="underline" >Holiday</span>
+                        </h1>    
+                        <h3 class="cover__sub-heading">CHECK OUR BEST PROMOTIONS</h3>
+                        <div class="cover__search"> 
+                            <select  class="cover__select">
+                                <option value="Choose your Destination ..." class="cover__select-option">Choose your Destination ...</option>
+                                <option value="Europe" class="cover__select-option">Europe</option>
+                                <option value="- Italy" class="cover__select-option">- Italy</option>
+                                <option value="- Netherlands" class="cover__select-option">- Netherlands</option>
+                                <option value="Asia" class="cover__select-option">Asia</option>
+                                <option value="- Thailandia" class="cover__select-option">- Thailandia</option>
+                                <option value="United States" class="cover__select-option">United States</option>
+                                <option value="Ocenia" class="cover__select-option">Ocenia</option>
+                            </select>
+                            <span class="cover__search-icon">
+                                <i class=" ti-search"></i>
+                            </span>
+                        </div>
+                        <ul class="cover__tour-type-list">
+                            <li class="cover__tour-type-item">
+                                <a href="" class="cover__tour-type-link">
+                                    <img src="./img/tour-type/relax.png" alt="" class="cover__tour-type-img">
+                                    <h3 class="cover__tour-type-title">RELAX</h3>
+                                </a>
+                            </li>
+                            <li class="cover__tour-type-item">
+                                <a href="" class="cover__tour-type-link">
+                                    <img src="./img/tour-type/cultural.png" alt="" class="cover__tour-type-img">
+                                    <h3 class="cover__tour-type-title">CULTURAL</h3>
+                                </a>
+                            </li>
+                            <li class="cover__tour-type-item">
+                                <a href="" class="cover__tour-type-link">
+                                    <img src="./img/tour-type/sport.png" alt="" class="cover__tour-type-img">
+                                    <h3 class="cover__tour-type-title">SPORT</h3>
+                                </a>
+                            </li>
+                            <li class="cover__tour-type-item">
+                                <a href="" class="cover__tour-type-link">
+                                    <img src="./img/tour-type/history.png" alt="" class="cover__tour-type-img">
+                                    <h3 class="cover__tour-type-title">HISTORY</h3>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="app__container">
+            <div class="grid wide">
+                <div class="destination">
+                    <div class="destination-wrap">
+                        <div class="row no-gutters">
+                            <div class="col destinations__header">
+                                <h3 class="destinations__title">OUR PROPOSALS</h3>
+                                <h1 class="destinations__heading">OUR <span class="underline">DESTINATIONS</span></h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l-4 m-6 c-12  destinations__package-item ">
+                                <div class="destinations__package-img" style="background-image: linear-gradient(rgba(67, 74, 84 , 0.2 ),rgba(68, 75, 85 , 0.2 )), url('./img/detination-img/destination-9.jpg');">
+                                    <img src="./img/destinaton-icons/europe-icon.png" alt="" class="destinations__package-sticker">
+                                    <div class="destinations__package-info">
+                                        <div class="destinations__package-title">Europe</div>
+                                        <span class="destinations__package-quantity">3 packages</span>
+                                    </div>
+                                    <div class="destinations__package-place">
+                                        <div class="destinations__package-place-wrap">
+                                            <h1 class="destinations__package-place-heading">Packages</h1>
+                                            <ul class="destinations__package-place-list">
+                                                <li class="destinations__package-place-item">
+                                                    <a href="" class="destinations__package-place-link">Berlin</a>
+                                                </li>
+                                                <li class="destinations__package-place-item">
+                                                    <a href="" class="destinations__package-place-link">Amsterdam</a>
+                                                </li>
+                                                <li class="destinations__package-place-item">
+                                                    <a href="" class="destinations__package-place-link">Tuscany</a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="btn destinations__package-place-button">View Destination</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-6 c-12 destinations__package-item ">
+                                <div class="destinations__package-img" style="background-image: linear-gradient(rgba(67, 74, 84 , 0.2 ),rgba(68, 75, 85 , 0.2 )), url('./img/detination-img/destination-thailandia.jpg');">
+                                    <img src="./img/destinaton-icons/thailandia-icon.png" alt="" class="destinations__package-sticker">
+                                    <div class="destinations__package-info">
+                                        <div class="destinations__package-title">Thailandia</div>
+                                        <span class="destinations__package-quantity">1 packages</span>
+                                    </div>
+                                    <div class="destinations__package-place">
+                                        <div class="destinations__package-place-wrap">
+                                            <h1 class="destinations__package-place-heading">Packages</h1>
+                                            <ul class="destinations__package-place-list">
+                                                <li class="destinations__package-place-item">
+                                                    <a href="" class="destinations__package-place-link">Berlin</a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="btn destinations__package-place-button">View Destination</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-6 c-12 destinations__package-item ">
+                                <div class="destinations__package-img" style="background-image: linear-gradient(rgba(67, 74, 84 , 0.2 ),rgba(68, 75, 85 , 0.2 )), url('./img/detination-img/destination-asia.jpg');">
+                                    <img src="./img/destinaton-icons/asia-icon.png" alt="" class="destinations__package-sticker">
+                                    <div class="destinations__package-info">
+                                        <div class="destinations__package-title">Asia</div>
+                                        <span class="destinations__package-quantity">2 packages</span>
+                                    </div>
+                                    <div class="destinations__package-place">
+                                        <div class="destinations__package-place-wrap">
+                                            <h1 class="destinations__package-place-heading">Packages</h1>
+                                            <ul class="destinations__package-place-list">
+                                                <li class="destinations__package-place-item">
+                                                    <a href="" class="destinations__package-place-link">Hong Kong</a>
+                                                </li>
+                                                <li class="destinations__package-place-item">
+                                                    <a href="" class="destinations__package-place-link">Phuket</a>
+                                                </li>   
+                                            </ul>
+                                            <a href="" class="btn destinations__package-place-button">View Destination</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-6 c-12 destinations__package-item ">
+                                <div class="destinations__package-img" style="background-image: linear-gradient(rgba(67, 74, 84 , 0.2 ),rgba(68, 75, 85 , 0.2 )), url('./img/detination-img/destination-italy.jpg');">
+                                    <img src="./img/destinaton-icons/italy-icon.png" alt="" class="destinations__package-sticker">
+                                    <div class="destinations__package-info">
+                                        <div class="destinations__package-title">Italy</div>
+                                        <span class="destinations__package-quantity">1 packages</span>
+                                    </div>
+                                    <div class="destinations__package-place">
+                                        <div class="destinations__package-place-wrap">
+                                            <h1 class="destinations__package-place-heading">Packages</h1>
+                                            <ul class="destinations__package-place-list">
+                                                <li class="destinations__package-place-item">
+                                                    <a href="" class="destinations__package-place-link">Tuscany</a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="btn destinations__package-place-button">View Destination</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-6 c-12 destinations__package-item ">
+                                <div class="destinations__package-img" style="background-image: linear-gradient(rgba(67, 74, 84 , 0.2 ),rgba(68, 75, 85 , 0.2 )), url('./img/detination-img/destination-nethelands.jpg');">
+                                    <img src="./img/destinaton-icons/netherlands-icon.png" alt="" class="destinations__package-sticker">
+                                    <div class="destinations__package-info">
+                                        <div class="destinations__package-title">Netherlanes</div>
+                                        <span class="destinations__package-quantity">1 packages</span>
+                                    </div>
+                                    <div class="destinations__package-place">
+                                        <div class="destinations__package-place-wrap">
+                                            <h1 class="destinations__package-place-heading">Packages</h1>
+                                            <ul class="destinations__package-place-list">
+                                                <li class="destinations__package-place-item">
+                                                    <a href="" class="destinations__package-place-link">Amsterdam</a>
+                                                </li>   
+                                            </ul>
+                                            <a href="" class="btn destinations__package-place-button">View Destination</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-6 c-12 destinations__package-item ">
+                                <div class="destinations__package-img" style="background-image: linear-gradient(rgba(67, 74, 84 , 0.2 ),rgba(68, 75, 85 , 0.2 )), url('./img/detination-img/destination-united-state.jpg');">
+                                    <img src="./img/destinaton-icons/united-states-icon.png" alt="" class="destinations__package-sticker">
+                                    <div class="destinations__package-info">
+                                        <div class="destinations__package-title">United State</div>
+                                        <span class="destinations__package-quantity">1 packages</span>
+                                    </div>
+                                    <div class="destinations__package-place">
+                                        <div class="destinations__package-place-wrap">
+                                            <h1 class="destinations__package-place-heading">Packages</h1>
+                                            <ul class="destinations__package-place-list">
+                                                <li class="destinations__package-place-item">
+                                                    <a href="" class="destinations__package-place-link">San Francisco</a>
+                                                </li>   
+                                            </ul>
+                                            <a href="" class="btn destinations__package-place-button">View Destination</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="moment" style="background-image: url('./img/moment/moment1.jpg');">
+                <div class="grid wide">
+                    <div class="row no-gutters moment-wrap">
+                        <div class="col l-6 m-6 c-12">
+                            <div class="moment__title">
+                                <h1 style="font-size: 45px;">Your</h1>
+                                <h1>Next <span class="underline">Holiday</span></h1>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-6 c-12">
+                            <div class="moment-btn">
+                                <a href="/" class="btn"> View All Packages</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="best-place">
+                <div class="grid wide">
+                    <div class="row best-place__booking-info">
+                        <div class="col l-4 m-12">
+                            <div class="best-place__book-info">
+                                <div class="best-place__book-place">NORTH AMERICA</div>
+                                <h1 class="best-place__book-heading">The Best <span class="underline">Beaches</span></h1>
+                                <p class="best-place__book-content">Lorem ipsum dolor sit amet, consectetur adip iscing elit. 
+                                    Proin rhoncus urna dictum neque molestie ultricies mauris ac.</p>
+                                <p class="best-place__book-content">Lorem ipsum dolor sit amet, consectetur adip iscing elit. 
+                                    Proin rhoncus urna dictum neque molestie ultricies mauris ac.</p>
+                                <h1 class="best-place__book-price">
+                                    <span class="best-place__book-old-price">800</span>
+                                        500 $
+                                    <span class="best-place__book-price-text">/ FOR PERSON</span>
+                                </h1>
+                                <a href="" class="btn best-place__book-btn">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="col l-8 m-12">
+                            <div class="best-place__slider">
+                                <div class="best-place__slider-list">
+                                    <img  class="best-place__slider-img" src="./img/best-place/best-place1.jpg" alt="">
+                                    <ul class="best-place__slider-times">
+                                        <li class="best-place__slider-time-section">
+                                            <span class="best-place__slider-time-value">03</span>
+                                            <p class="best-place__slider-time-name">DAYS</p>
+                                        </li>
+                                        <li class="best-place__slider-time-section">
+                                            <span class="best-place__slider-time-value">12</span>
+                                            <p class="best-place__slider-time-name">HOUR</p>
+                                        </li>
+                                        <li class="best-place__slider-time-section">
+                                            <span class="best-place__slider-time-value">10</span>
+                                            <p class="best-place__slider-time-name">MINUTES</p>
+                                        </li>
+                                        <li class="best-place__slider-time-section">
+                                            <span class="best-place__slider-time-value">59</span>
+                                            <p class="best-place__slider-time-name">SECONDS</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row best-place__booking-item">
+                        <div class="col l-4 m-12 c-12">
+                            <div class="best-place__tour-item">
+                                <img src="./img/best-tour/world.png" alt="" class="best-place__tour-img">
+                                <div class="best-place__tour-content">
+                                    <h1 class="best-place__tour-heading">World Tour</h1>
+                                    <p class="best-place__tour-text">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
+                                    <a href="" class="best-place__tour-more">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="best-place__tour-item">
+                                <img src="./img/best-tour/cruises.png" alt="" class="best-place__tour-img">
+                                <div class="best-place__tour-content">
+                                    <h1 class="best-place__tour-heading">Cruises</h1>
+                                    <p class="best-place__tour-text">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
+                                    <a href="" class="best-place__tour-more">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="best-place__tour-item">
+                                <img src="./img/best-tour/best.png" alt="" class="best-place__tour-img">
+                                <div class="best-place__tour-content">
+                                    <h1 class="best-place__tour-heading">Best Tour</h1>
+                                    <p class="best-place__tour-text">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
+                                    <a href="" class="best-place__tour-more">View more</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discover-place" >
+                <div class="grid">
+                    <div class="row no-gutters">
+                        <div class="col l-6 m-6 c-12" style="background-image: url(./img/discover/discover1.jpg)">
+                            <div class="discover-place-wrap">
+                                <h3 class="discover-place__title">01. LAST MINUTE</h3>
+                                <h1 class="discover-place__heading">Discover Cities</h1>
+                                <a href="" class="btn discover-place__button">details</a>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-6 c-12" style="background-image: url('./img/discover/dicover2.jpg')">
+                            <div class="discover-place-wrap">
+                                <h3 class="discover-place__title">02. PROMOTIONS</h3>
+                                <h1 class="discover-place__heading">Discover Nature</h1>
+                                <a href="" class="btn discover-place__button green-color">details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="package-place">
+                <div class="grid wide">
+                    <div class="row package-place__head">
+                        <h3 class="package-place__title">PROMOTIONS</h3>
+                        <h1 class="package-place__heading">OUR <span class="underline">PACKAGES</span></h1>
+                    </div>
+                    <div class="row package-place__list">
+                        <div class="col l-4">
+                            <div class="package-place__img">
+                                <img src="./img/package-place-img/Berlin.jpg" alt="" class="">
+                                <div class="package-place__list-sticker" style="background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);">
+                                    <img src="./img/package-place-img/package-small-img/berlin.png" alt="">
+                                </div>
+                            </div>
+                            <div class="package-place__content">
+                                <a class="package-place__package-name">Berlin</a>
+                                <div class="package-place__area">
+                                    <img src="./img/package-place-img/icon-pin-grey.png" alt="">
+                                    <h3>Europe</h3>
+                                </div>
+                                <div class="package-place__price">
+                                    <div class="package-place__type">
+                                        <a href="#" class="package-place__name">cultural</a>
+                                        <a href="#" class="package-place__name">relax <span class="package-place__rate br-yellow-color">+ 1</span></a>
+                                    </div>
+                                    <div class="package-place__money">
+                                        <span class="package-place__old-money">1000</span>
+                                        900 $
+                                    </div>
+                                </div>
+                                <p class="package-place__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                     Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                                <a href="" class="btn package-place__button br-yellow-color">Details</a>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="package-place__img">
+                                <img src="./img/package-place-img/HongKong.jpg" alt="" class="">
+                                <div class="package-place__list-sticker"  style="background-image:linear-gradient(to right, #f76570 0%, #f78d65 100%);">
+                                    <img src="./img/package-place-img/package-small-img/hongkong.png" alt="">
+                                </div>
+                                <span class="package-place__sale">SALE</span>
+                            </div>
+                            <div class="package-place__content">
+                                <a class="package-place__package-name">Hong Kong</a>
+                                <div class="package-place__area">
+                                    <img src="./img/package-place-img/icon-pin-grey.png" alt="">
+                                    <h3>Asia</h3>
+                                </div>
+                                <div class="package-place__price">
+                                    <div class="package-place__type">
+                                        <a href="#" class="package-place__name">history</a>
+                                        <a href="#" class="package-place__name">culture<span class="package-place__rate br-red-color">+ 1</span></a>
+                                    </div>
+                                    <div class="package-place__money">
+                                        <span class="package-place__old-money">1000</span>
+                                        500 $
+                                    </div>
+                                </div>
+                                <p class="package-place__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                     Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                                <a href="" class="btn package-place__button br-red-color">Details</a>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="package-place__img">
+                                <img src="./img/package-place-img/San-francisco.jpg" alt="" class="">
+                                <div class="package-place__list-sticker"  style="background-image:linear-gradient(to right, #ba71da 0%, #da717b 100%);">
+                                    <img src="./img/package-place-img/package-small-img/san-francisco.png" alt="">
+                                </div>
+                            </div>
+                            <div class="package-place__content">
+                                <a class="package-place__package-name">San Francisco</a>
+                                <div class="package-place__area">
+                                    <img src="./img/package-place-img/icon-pin-grey.png" alt="">
+                                    <h3>United States</h3>
+                                </div>
+                                <div class="package-place__price">
+                                    <div class="package-place__type">
+                                        <a href="#" class="package-place__name">sport</a>
+                                        <a href="#" class="package-place__name">relax<span class="package-place__rate br-purple-color">+ 1</span></a>
+                                    </div>
+                                    <div class="package-place__money">
+                                        400 $
+                                    </div>
+                                </div>
+                                <p class="package-place__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                     Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                                <a href="" class="btn package-place__button br-purple-color">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="app__footer" style="background: url(./img/footer.jpg);">
+            <div class="grid wide">
+                <div class="app__footer-top">
+                    <div class="row">
+                        <div class="col l-4 l-o-2 m-12 c-10">
+                                <div class="app__footer-heading">
+                                    <div class="app__footer-title">
+                                        <h3>KEEP IN TOUCH</h3>
+                                        <h1>Travel with Us</h1>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="app__footer-input">
+                                <input type="text">
+                                <button class="btn">SEND</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="app__footer-content">
+                    <div class="row no-gutters">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="app__footer-connection">
+                                <img class="app__footer-logo" src="./img/footer/logo-color.png" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam et nibh condimentum venenatis eu ac magnasin.
+                                        Quisque interdum est mauris, eget ullamcorper.</p>
+                                <div class="app__footer-social">
+                                    <a href="" class="app__footer-social-link">
+                                        <img class="app__footer-social-icon" src="./img/footer/social/facebook.png" alt="">
+                                    </a>
+                                    <a href="" class="app__footer-social-link">
+                                        <img class="app__footer-social-icon" src="./img/footer/social/twitter.png" alt="">
+                                    </a>
+                                    <a href="" class="app__footer-social-link">
+                                        <img class="app__footer-social-icon" src="./img/footer/social/youtube.png" alt="">
+                                    </a>
+                                    <a href="" class="app__footer-social-link">
+                                        <img class="app__footer-social-icon" src="./img/footer/social/vimeo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="app__footer-info">
+                                <div class="row">
+                                    <div class="col l-4 m-4 c-12">
+                                        <div class="app__footer-info-item">
+                                            <h1 class="footer__info-head">OUR AGENCY</h1>
+                                            <ul class="footer__info-list">
+                                                <li class="footer__info-item">
+                                                    <i class="ti-angle-right"></i>Services
+                                                </li>
+                                                <li class="footer__info-item">
+                                                    <i class="ti-angle-right"></i>
+                                                    Insurancee</li>
+                                                <li class="footer__info-item">
+                                                    <i class="ti-angle-right"></i>
+                                                    Agency</li>
+                                                <li class="footer__info-item">
+                                                    <i class="ti-angle-right"></i>
+                                                    Tourism</li>
+                                                <li class="footer__info-item">
+                                                    <i class="ti-angle-right"></i>
+                                                    Payment</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col l-4 m-4 c-12">
+                                        <h1 class="footer__info-head">PARTNERS</h1>
+                                        <ul class="footer__info-list">
+                                            <li class="footer__info-item">
+                                                <i class="ti-angle-right"></i>
+                                                Booking</li>
+                                            <li class="footer__info-item">
+                                                <i class="ti-angle-right"></i>
+                                                RentalCar</li>
+                                            <li class="footer__info-item">
+                                                <i class="ti-angle-right"></i>
+                                                HostelWorld</li>
+                                            <li class="footer__info-item">
+                                                <i class="ti-angle-right"></i>
+                                                Trivago</li>
+                                            <li class="footer__info-item">
+                                                <i class="ti-angle-right"></i>
+                                                TripAdvisor</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-4 m-4 c-12">
+                                        <h1 class="footer__info-head">LAST MINUTE</h1>
+                                        <ul class="footer__info-list">
+                                            <li class="footer__info-item">
+                                                <i class="ti-angle-right"></i>
+                                                London</li>
+                                            <li class="footer__info-item">
+                                                <i class="ti-angle-right"></i>
+                                                California</li>
+                                            <li class="footer__info-item">
+                                                <i class="ti-angle-right"></i>
+                                                Indonesia</li>
+                                            <li class="footer__info-item">
+                                                <i class="ti-angle-right"></i>
+                                                Europe</li>
+                                            <li class="footer__info-item">
+                                                <i class="ti-angle-right"></i>
+                                                Oceania</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="app__footer-end">
+                    <div class="row no-gutters">
+                        <div class="col l-6">
+                            <p>THE BEST WORDPRESS TRAVEL THEME</p>
+                        </div>
+                        <div class="col l-6">
+                            <p style="float: right;">COPYRIGHT NICDARK THEMES 2018</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="app__fixed-icon">
+            <div class="fixed-icon__main">
+                54
+                <span class="fixed-icon__sub-dollar">$</span>
+                <div class="fixed-icon__sub">
+                    <img src="./img/fix-icon.png" alt="" class="fixed-icon__sub-img">                
+                </div>
+                <span class="fixed-icon__buy-now">BUY NOW</span>
+            </div>
+        </a>
+        <div class="app__menu">
+            <div class="app__menu-wrap">
+                <div class="app__menu-close">
+                    <img src="./img/close.png" alt="">
+                </div>
+                <div class="best-package">
+                    <div class="app__menu-content">
+                        <div class="menu-content__heading">
+                            <p>Best</p>
+                            <h3 class="underline">Packages</h3>
+                        </div>
+                    </div>
+                    <ul class="app__menu-list">
+                        <li class="app__menu-item">
+                            <img src="./img/menu/Europe.jpg" alt="" class="app__menu-item-img">
+                            <div class="app__menu-info">
+                                <h3 class="app__menu-info-heading">Berlin</h3>
+                                <div class="app__menu-info-place">
+                                    <img src="./img/package-place-img/icon-pin-grey.png" alt="">
+                                    <span>Europe</span>
+                                </div>
+                                <button class="btn app__menu-info-btn br-yellow-color">FROM 700$</button>
+                            </div>
+                        </li>
+                        <li class="app__menu-item">
+                            <img src="./img/menu/hongkong.jpg" alt="" class="app__menu-item-img">
+                            <a class="app__menu-info">
+                                <h3 class="app__menu-info-heading">Hong Kong</h3>
+                                <div class="app__menu-info-place">
+                                    <img src="./img/package-place-img/icon-pin-grey.png" alt="">
+                                    <span>Asia</span>
+                                </div>
+                                <button class="btn app__menu-info-btn br-red-color">FROM 500$</button>
+                            </a>
+                        </li>
+                        <li class="app__menu-item">
+                            <img src="./img/menu/sanfrancisco.jpg" alt="" class="app__menu-item-img">
+                            <div class="app__menu-info">
+                                <h3 class="app__menu-info-heading">San Francisco</h3>
+                                <div class="app__menu-info-place">
+                                    <img src="./img/package-place-img/icon-pin-grey.png" alt="">
+                                    <span>United States</span>
+                                </div>
+                                <button class="btn app__menu-info-btn br-purple-color">FROM 700$</button>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="destinations__package-item">
+                        <div class="destinations__package-img" style="background-image: linear-gradient(rgba(67, 74, 84 , 0.2 ),rgba(68, 75, 85 , 0.2 )), url('./img/detination-img/destination-9.jpg');">
+                            <img src="./img/destinaton-icons/europe-icon.png" alt="" class="destinations__package-sticker">
+                            <div class="destinations__package-info">
+                                <div class="destinations__package-title">Europe</div>
+                                <span class="destinations__package-quantity">3 packages</span>
+                            </div>
+                            <div class="destinations__package-place">
+                                <div class="destinations__package-place-wrap">
+                                    <h1 class="destinations__package-place-heading">Packages</h1>
+                                    <ul class="destinations__package-place-list">
+                                        <li class="destinations__package-place-item">
+                                            <a href="" class="destinations__package-place-link">Berlin</a>
+                                        </li>
+                                        <li class="destinations__package-place-item">
+                                            <a href="" class="destinations__package-place-link">Amsterdam</a>
+                                        </li>
+                                        <li class="destinations__package-place-item">
+                                            <a href="" class="destinations__package-place-link">Tuscany</a>
+                                        </li>
+                                    </ul>
+                                    <a href="" class="btn destinations__package-place-button">View Destination</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="best-package">
+                    <div class="app__menu-content">
+                        <div class="menu-content__heading">
+                            <p>Last</p>
+                            <h3 class="underline">Minutes</h3>
+                        </div>
+                    </div>
+                    <ul class="app__menu-list">
+                        <li class="app__menu-item">
+                            <img src="./img/menu/tucany.jpg" alt="" class="app__menu-item-img">
+                            <div class="app__menu-info">
+                                <h3 class="app__menu-info-heading">Tuscany</h3>
+                                <div class="app__menu-info-place">
+                                    <img src="./img/package-place-img/icon-pin-grey.png" alt="">
+                                    <span>Italy</span>
+                                </div>
+                                <button class="btn app__menu-info-btn br-green-color">FROM 730$</button>
+                            </div>
+                        </li>
+                        <li class="app__menu-item">
+                            <img src="./img/menu/amsterdam.jpg" alt="" class="app__menu-item-img">
+                            <a class="app__menu-info">
+                                <h3 class="app__menu-info-heading">Amsterdam</h3>
+                                <div class="app__menu-info-place">
+                                    <img src="./img/package-place-img/icon-pin-grey.png" alt="">
+                                    <span>Netherlands</span>
+                                </div>
+                                <button class="btn app__menu-info-btn br-red-color">FROM 1500$</button>
+                            </a>
+                        </li>
+                        <li class="app__menu-item">
+                            <img src="./img/menu/phuket.jpg" alt="" class="app__menu-item-img">
+                            <div class="app__menu-info">
+                                <h3 class="app__menu-info-heading">Phuket</h3>
+                                <div class="app__menu-info-place">
+                                    <img src="./img/package-place-img/icon-pin-grey.png" alt="">
+                                    <span>Thailandia</span>
+                                </div>
+                                <button class="btn app__menu-info-btn br-purple-color">FROM 1200$</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

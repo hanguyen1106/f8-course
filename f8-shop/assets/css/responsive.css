@@ -1,0 +1,134 @@
+/* Mobile & Tablet */
+
+@media (max-width: 1023px) {
+    
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .header__sort-bar {
+        display: flex;
+    }
+    .header__cart {
+        width: 80px;
+        text-align: right;
+        z-index: 2;
+    }
+    .header__cart-list {
+        position: fixed;
+        top: var(--header-height);
+        right: 0;
+        width: 100%;
+        padding: 0 calc((100% - 644px) / 2);
+    }
+    header {
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    .app__container {
+        margin-top: calc(var(--header-height) + var(--header-sort-bar-height));
+    }
+    .app__content {
+        padding-top: 8px;
+    }
+    
+    .mobile-category {
+        display: block;
+    }
+    
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    :root {
+        --header-height : 68px;
+        --navbar-height : 0px;
+    }
+}
+
+@media (min-width: 740px) {
+    .hide-on-pc-tablet {
+        display: none;
+    }
+}
+
+@media  (max-width: 739px) {
+    :root {
+        --header-height : 54px;
+        --navbar-height : 0px;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .header-with-search {
+        justify-content: space-between;
+    }
+    .header__logo,
+    .header__cart {
+        width: unset;
+    }
+    
+    .header__search {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: var(--header-height);
+        height: 44px;
+        box-shadow: none;
+        padding: 0 16px;
+        animation: mobileSearchSideIn linear 0.2s;
+    }
+    @keyframes mobileSearchSideIn {
+        from {
+            opacity: 0;
+            top: calc(var(--header-height) / 2);
+        }
+        to {
+            opacity: 1;
+            top: calc(var(--header-height));
+        }
+    }
+    .header__search-history {
+        position: fixed;
+        left: 0;
+        width: 100%;
+        top: calc(var(--header-height) + var(--header-sort-bar-height));
+        box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
+
+    }
+    .pagination-item {
+        margin: 0;
+    }
+    .pagination-item__link {
+        --height : 28px ;
+        font-size: 1.6rem;
+        min-width: 36px;
+    }
+
+    .app__content {
+        margin: 0 4px;
+    }
+
+    .header__logo-img {
+        width: 110px;
+    }
+    .footer__content {
+        padding: 0 16px;
+    }
+    .footer__heading {
+        text-align: center;
+    }
+
+    .footer-link {
+        justify-content: center;
+    }
+    .footer__download {
+        justify-content: center;
+        text-align: center;
+    }
+
+}

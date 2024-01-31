@@ -1,0 +1,12 @@
+note for Love Travel 
+	+ header 
+		+ navbar
+		+ cover
+			+ 
+	+ container
+		+ destinations
+		+ moments
+		+ best-place
+		+ discover place
+		+ package
+	+ footer
