@@ -1,0 +1,83 @@
+
+/* Mobile & tablet */
+@media (max-width:1023px) {
+    .ticket-btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 14px ;
+    }
+
+    #footer .social-list {
+        font-size: 40px;
+        margin: 0 8px;
+    }
+
+    #footer .copy-right {
+        font-size: 20px;
+    }
+
+    #footer .copy-right a {
+        padding: 12px;
+    }
+}
+
+/* mobile */
+@media (max-width:739px) {
+    
+    .s-col-colfull ,
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #nav > li  {
+        display: block;
+    }
+
+    #nav  > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #ccc;
+    }
+
+    #nav .subnav a {
+        color: #000;
+        padding: 5px 41px;
+    }
+
+    #header .search-icon {
+        display: none;
+    }
+    #header .mobile-menu-icon {
+        display: block;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #content .member-resp {
+        width: 100%;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+
+    #slider .text-content {
+        display: none;
+    }
+    
+}

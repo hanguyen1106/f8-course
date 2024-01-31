@@ -1,0 +1,409 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+/* Common */
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-white {
+    color: #fff !important ;
+}
+#main {
+
+}
+
+.mt-8 {
+    margin-top: 8px !important;
+}
+
+.mt-16 {
+    margin-top: 16px !important;
+}
+
+.clear {
+    clear: both;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+
+}
+.col-third {
+    width: 33.33333%;
+}
+
+.col {
+    float: left;
+    padding: 0 8px;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-full {
+    width: 100%;
+}
+
+/* main */
+#header {
+    position: fixed;
+    height: 46px; 
+    background-color: #000;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; 
+}
+
+#nav {
+    display: block;
+}
+
+#nav , .subnav {
+    list-style-type: none;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+}
+#nav li:hover .subnav {
+    display: block;
+}
+#nav > li > a {
+    color: #fff;
+    line-height: 46px;
+    text-transform:uppercase;
+} 
+
+#nav li a {
+    padding: 0 24px;
+    text-decoration: none;
+    display: block ;
+}
+
+#nav > li:hover > a, 
+#nav .subnav li:hover a  {
+    background-color: #ccc;
+    color: #000;
+} 
+
+#nav .subnav  {
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.5);
+}
+#nav .subnav  a { 
+    padding: 0 12px;
+    line-height:  38px;
+    color: #000;
+}
+
+#nav .nav-arrow-down {
+    font-size: 14px;
+}
+
+#header .mobile-menu-icon , 
+#header .search-icon {
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+    padding: 0 21px;
+
+}
+
+#header .mobile-menu-icon{
+    display: none;
+}
+
+#header .mobile-menu-btn {
+    
+}
+
+.mobile-menu-btn,
+#header .search-btn {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.mobile-menu-btn:hover{
+    background-color: #ccc;
+}
+
+
+#header .search-btn:hover {
+    cursor: pointer;
+    background-color: #f44336;
+}
+
+#slider {
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('../img/slider1.jpg') top center / cover no-repeat;
+}
+#slider .text-content { 
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    padding-bottom: 47px;
+    text-align: center;
+    width: 100%;
+
+}
+
+#slider .text-heading { 
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#slider .text-description { 
+    font-size: 15px;
+    margin-top: 25px;
+    text-shadow: 0 0 3px #000;
+}
+
+#content {
+
+}
+
+#content .section-heading {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 4px;
+  
+}
+#content .section-sub-heading {
+    font-size: 15; 
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6;
+    margin-bottom: 15px;
+
+}
+#content .about-text {
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+
+
+#content .content-section {
+    padding: 64px 16px;
+    margin: 0 32px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:100%
+
+}
+
+
+#content .members-list {
+    margin: 62px 0 48px ;
+    text-align: center;
+}
+
+#content .member-name {
+    
+    font-size: 15px;
+}
+#content .member-img {
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+/* Tour section */
+.tour-section {
+    background-color: #000;
+}
+
+.tickets-list {
+    background-color: #fff;
+    list-style: none;
+}
+
+.tickets-list li {
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #757575;
+}
+
+.tickets-list .sold-out {
+    background-color: #f44336;
+    color: #fff;
+    padding: 3px 4px;
+    margin-left: 18px;
+}
+
+.tickets-list .quantity {
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 25px;
+    margin-right: 8px;
+    
+}
+
+.box-tickets {
+    padding: 16px 0;
+    background-color: #000;
+    margin-bottom: 32px;
+
+}
+
+
+.box-tickets .ticket-img {
+    width: 100%;
+    display: block;
+
+}
+.box-tickets .ticket-img:hover {
+    opacity: 0.5;
+}
+
+.ticket-content {
+    background-color: #fff;
+}
+.ticket-desc {
+
+}
+
+.ticket-heading {
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left:15px ;
+}
+
+.ticket-time {
+    padding: 15px 0;
+    font-size: 15px;
+    margin-left:15px ;
+    font-weight: 500;
+    opacity: 0.6;
+}
+.ticket-desc {
+    padding: 15px 0;
+    font-size: 15px;
+    margin-left:15px;
+    line-height: 1.4;
+}
+
+.ticket-btn {
+    font-size: 15px;
+    margin-left: 15px;
+    padding: 11px 16px;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 16px;
+    text-decoration: none ;
+    display: inline-block;
+}
+
+.ticket-btn:hover {
+    background-color: #ccc;
+}
+
+/* contact form */ 
+.contact-content {
+    margin: 48px 0; 
+}
+
+.contact-info {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact-info i {
+    width: 30px;
+    display: inline-block;
+}
+
+.contact-form {
+    font-size: 15px;
+}
+
+.contact-form .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+
+}
+.contact-form .form-submit {
+    background: #000;
+    color: #fff;
+    padding: 12px 17px;
+    float: right;
+    border: none;
+   
+}
+
+.contact-form .form-submit:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.content .content-img {
+    height: 200px;
+}
+
+.map-img {
+    width: 100%;
+}
+
+#footer {
+    padding: 64px 16px;
+    text-align: center;
+}
+
+#footer .social-list {
+    font-size: 24px;
+}
+
+#footer .social-list a {
+    color: rgba(0 , 0, 0, 0.6);
+    text-decoration: none;
+}
+#footer .copy-right a:hover,
+#footer .social-list a:hover {
+    color: rgba(0 , 0, 0, 0.4);;
+}
+
+#footer .copy-right {
+    margin-top: 15px;
+    color: rgba(0 , 0, 0, 0.6);
+}
+#footer .copy-right a {
+    color: rgba(0 , 0, 0, 0.6);
+}

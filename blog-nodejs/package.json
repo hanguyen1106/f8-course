@@ -1,0 +1,54 @@
+{
+  "name": "blog-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resources/scss/ -o src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanguyen12b4/nodejs_blog.git"
+  },
+  "keywords": [
+    "f8",
+    "blog",
+    "nodejs"
+  ],
+  "author": "hanguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanguyen12b4/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/hanguyen12b4/nodejs_blog#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": [
+        "lint-staged",
+        "git add ."
+      ]
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.1.6",
+    "mongoose-delete": "^0.5.4",
+    "mongoose-sequence": "^5.3.1",
+    "mongoose-slug-generator": "^1.0.4"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.7",
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}
